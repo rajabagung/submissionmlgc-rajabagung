@@ -20,7 +20,7 @@ async function predictClassification(model, image) {
 
         if(confidenceScore > 50){
             label = 'Cancer';
-            suggestion = "Segera periksa ke dokter!";
+            suggestion = "Periksa ke dokter!";
         }
         else{
             label = 'Non-cancer';
